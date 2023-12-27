@@ -219,7 +219,7 @@ header {
 }
 /*About us Page*/
 
-/*Picture*/
+/*About Me Picture*/
 .profile { 
     height: 400px;
     display: flex;
@@ -232,9 +232,10 @@ header {
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     backdrop-filter: blur(10px);
     float: left;
+    margin-left: 560px;
 }
 
-/*About Me Capsule*/
+/*About Me Box*/
 .wrapper-about {
     height: 400px;
     width: 600px;
@@ -246,6 +247,7 @@ header {
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     backdrop-filter: blur(10px);
 }
+/*About Me Paragraph*/
 .wrapper-about p{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
@@ -257,6 +259,7 @@ header {
     text-align: justify;
     margin-left: 85px;
 }
+/*About Me Paragraph Heading*/
 .wrapper-about h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
@@ -267,7 +270,25 @@ header {
     margin-left: 210px;
 }
 
-.wrapper-goal{
+/*About Us - Mission Boxes*/
+.goals{
+    height: 800px;
+    width: 1600px;
+    align-items: center;
+    text-align: justify;
+    display: flex;
+    column-gap: 50px;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    background-image: url(cars/goals.webp);
+    background-size: cover;
+    background-position: fit; 
+    background-repeat: no-repeat; 
+    margin-left: 160px;
+}
+/*About Us - Mission Box 1*/
+.box1 {
     height: 400px;
     width: 600px;
     display: flex;
@@ -277,13 +298,44 @@ header {
     border-radius: 50px;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     backdrop-filter: blur(10px);
-    margin-left: 100px;
+    display: inline-block;
+    margin-left: 120px;
+    background-color:#d9d9d9;
+
 }
-.wrapper-goal p{
+/*About Us - Mission Box 2*/
+.box2 {
+    height: 400px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+    display: inline-block;
+    margin-left: 100px;
+    background-color:#d9d9d9;
+}
+/*About Us - Mission Box 1 Paragraph*/
+.box1 p{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
     font-weight: 900;
-    height: 300px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-left: 85px;
+}
+/*About Us - Mission Box 2 Paragraph*/
+.box2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: 900;
+    height: 400px;
     width: 400px;
     display: flex;
     align-items: center;
@@ -310,5 +362,10 @@ p {
     text-indent: 50px;
     width: 325px;
     line-height: 1.5;
-    
+}
+footer {
+    clear: both;
+  }
+footer-line{
+    clear: both;
 }
