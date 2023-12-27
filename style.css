@@ -100,7 +100,7 @@ header {
     display: flex;
     cursor: pointer;
     padding: 10px 20px;
-    background: transparent;
+    background: white;
     border-radius: 100px;
     border: 2px solid #228B22;
     align-items: center;
@@ -134,8 +134,8 @@ header {
     width: 0px;
 }
 
-/*Home Page Image*/
-.container {
+/*Home Page Images*/
+.container1 {
     max-width: 1200px;
     display: flex;
     align-items: center;
@@ -146,7 +146,8 @@ header {
     backdrop-filter: blur(10px);
     
 }
-img {   
+/*Image 1 - Lexus LC 500*/
+.image1 {   
     max-width: 710px;
     height: 400px;
     display: flex;
@@ -155,6 +156,148 @@ img {
     border-radius: 50px;
     margin-right: 75px;
 }
+/*Image 2 - BMW M8*/
+.image2 {   
+    max-width: 710px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 75px;
+}
+.container2 {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+}
+
+/*Image 3 - Acura NSX*/
+.image3 {   
+    max-width: 710px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 75px;
+}
+.container3 {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+}
+/*Image 4 - Audi R8*/
+.image4 {   
+    max-width: 710px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 75px;
+}
+.container4 {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+}
+/*About us Page*/
+
+/*Picture*/
+.profile { 
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border-radius: 100px;
+    margin-right: 55px;
+    margin-left: 300px;
+    border: 4px solid #228B22;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+    float: left;
+}
+
+/*About Me Capsule*/
+.wrapper-about {
+    height: 400px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+}
+.wrapper-about p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: 900;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-left: 85px;
+}
+.wrapper-about h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-left: 210px;
+}
+
+.wrapper-goal{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+    margin-left: 100px;
+}
+.wrapper-goal p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: 900;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-left: 85px;
+}
+
+
+
+
+
+
+
+
 
 hr {
     height: 4px;
@@ -167,4 +310,5 @@ p {
     text-indent: 50px;
     width: 325px;
     line-height: 1.5;
+    
 }
