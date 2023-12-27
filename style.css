@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@500&family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #228B22;
+    background: fixed;
+}
+
+body {
+    background-image: url('Honey Comb.jpg');
+    background-size: auto; 
+    background-position: fit; 
+    background-repeat: repeat; 
+}
+
+header {
+    position: sticky;
+    backdrop-filter: blur(10px);
+    border-bottom: 3px solid ;
+    padding: 20px 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo {
+    font-style: italic;
+    font-size: 1.3em;
+    color: #228B22;
+    user-select: none;
+    display: flex;
+}
+/*Navigation Bar*/
+.navigation a{
+    position: sticky;
+    font-size: 1em;
+    color: #228B22;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 10px;
+    align-items: right;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #228B22;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform-origin: right;
+    transform: scaleX(1);
+
+}
+/*Apply button
+.navigation .btnLogin-popup {
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    color: #228B22;
+    outline: none;
+    border: 2px solid #228B22;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin: 10px;
+    transition: 0.5s;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.50);
+}
+.navigation .btnLogin-popup:hover {
+    background: #228B22;
+    border: 2px solid grey;
+    color: white ;
+}
+*/
+
+/*Search Bar*/
+
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 100px;
+    border: 2px solid #228B22;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.50);
+}
+.search-box:hover > .search-txt{
+    width: 180px;
+    padding: 0 6px;
+}
+.search-btn{
+    color: #228B22;
+    float: right;
+    width: auto;
+    height: auto;
+    border-radius: 0px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #228B22;
+    font-size: 0.9em;
+    transition: 0.8s;
+    line-height: 40px;
+    width: 0px;
+}
+
+/*Home Page Image*/
+.container {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+    
+}
+img {   
+    max-width: 710px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 75px;
+}
+
+hr {
+    height: 4px;
+        background-color: #228B22;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-size: 1em;
+    text-indent: 50px;
+    width: 325px;
+    line-height: 1.5;
+}
