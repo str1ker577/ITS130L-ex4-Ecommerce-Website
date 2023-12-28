@@ -343,13 +343,68 @@ header {
     margin-left: 85px;
 }
 
+/*Error Page Gif*/
+.gif{
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+}
 
 
+/*Contact Us Page*/
+.wrapper-contact{
+    height: 600px;
+    width: 1000px;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    background-image: url(Hexagon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+.wrapper-contact h1{
+    margin-top: 50px;
+}
+.icon a{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    margin: 0 30px;
+    display: inline-flex;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.5s;
+    box-shadow: -3px -3px 7px #228B22, 3px 3px 5px #228B22;
+    backdrop-filter: blur(10px);
+}
 
+.icon a:hover:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background: #d9d9d9;
+    box-shadow: inset 7px #228B22, 
+                inset 3px 5px #228B22;
+}
 
+.icon a i{
+   position: relative;
+   z-index: 3;
+   text-align: center;
+   width: 100%;
+   height: 100%;
+   font-size: 45px;
+   line-height: 80px; 
+}
 
-
-
+.icon a:hover i{
+    transform: scale(0.9);
+}
 
 hr {
     height: 4px;
