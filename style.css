@@ -34,7 +34,7 @@ header {
     align-items: center;
     z-index: 99;
 }
-
+/*Footer Layout*/
 footer {
     position: sticky;
     display: flex;
@@ -76,7 +76,7 @@ footer {
     box-shadow: inset 7px #228B22, 
                 inset 3px 5px #228B22;
 }
-
+/*Footer Icons*/
 .footer-icon a i{
    position: relative;
    z-index: 3;
@@ -86,7 +86,6 @@ footer {
    font-size: 25px;
    line-height: 50px; 
 }
-
 .footer-icon a:hover i{
     transform: scale(0.9);
 }
@@ -120,6 +119,7 @@ footer {
     height: 2px;
     width: 20%;
 }
+/*Removes Underline from Footer Links*/
 .footer-col a{
     text-decoration: none;
     gap: 10px;
@@ -310,8 +310,8 @@ footer {
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     backdrop-filter: blur(10px);
 }
-/*About us Page*/
 
+/*About us Page*/
 /*About Me Picture*/
 .profile { 
     height: 400px;
@@ -327,7 +327,6 @@ footer {
     float: left;
     margin-left: 560px;
 }
-
 /*About Me Box*/
 .wrapper-about {
     height: 400px;
@@ -362,7 +361,6 @@ footer {
     text-align: justify;
     margin-left: 210px;
 }
-
 /*About Us - Mission Boxes*/
 .goals{
     height: 800px;
@@ -437,6 +435,7 @@ footer {
 }
 
 /*Products Page*/
+/*Images*/
 /*Image 5 - LC 500 */
 .image5 {   
     max-width: 710px;
@@ -557,6 +556,9 @@ footer {
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     backdrop-filter: blur(10px);
 }
+
+/*Products Page*/
+/*Specs List inside the capsule*/
 ul {
     display: flex;
     flex-direction: column;
@@ -567,8 +569,8 @@ ul {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     margin-bottom: 50px;
-    
 }
+/*Buy Now Buttons*/
 .list button{
     font-family: 'Montserrat', sans-serif;
     width: 100px;
@@ -589,6 +591,7 @@ ul {
     color: #d9d9d9;
     border: 3px solid #d9d9d9;
 }
+/*Starting Price*/
 .Price {
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
@@ -616,7 +619,7 @@ ul {
     border: 4px solid #228B22;
     border-radius: 50px;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
-    background-image: url(Hexagon.jpg);
+    background-image: url(abstract);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
@@ -624,6 +627,7 @@ ul {
 .wrapper-contact h1{
     margin-top: 50px;
 }
+/*Social Media Icons*/
 .icon a{
     position: relative;
     height: 80px;
@@ -636,7 +640,6 @@ ul {
     box-shadow: -3px -3px 7px #228B22, 3px 3px 5px #228B22;
     backdrop-filter: blur(10px);
 }
-
 .icon a:hover:before{
     content: "";
     position: absolute;
@@ -649,7 +652,6 @@ ul {
     box-shadow: inset 7px #228B22, 
                 inset 3px 5px #228B22;
 }
-
 .icon a i{
    position: relative;
    z-index: 3;
@@ -659,11 +661,11 @@ ul {
    font-size: 45px;
    line-height: 80px; 
 }
-
 .icon a:hover i{
     transform: scale(0.9);
 }
 
+/*Universal*/
 hr {
     height: 4px;
         background-color: #228B22;
