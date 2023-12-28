@@ -473,7 +473,7 @@ ul {
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     
 }
 .list button{
@@ -489,11 +489,19 @@ ul {
     font-size: 0.9em;
     margin-left: 110px;
     transition: 0.5s;
+    position: absolute;
 }
 .list button:hover{
     background: #228B22;
     color: #d9d9d9;
     border: 3px solid #d9d9d9;
+}
+.list h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-style: italic;
+    font-weight: 400;
+    text-decoration: underline
 }
 
 
