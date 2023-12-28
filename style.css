@@ -343,6 +343,165 @@ header {
     margin-left: 85px;
 }
 
+/*Products Page*/
+/*Image 5 - LC 500 */
+.image5 {   
+    max-width: 710px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 75px;
+}
+.container5 {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+}
+/*Image 5 - LC 500 */
+.image6 {   
+    max-width: 710px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 75px;
+}
+.container6 {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+}
+/*Image 5 - LC 500 */
+.image7 {   
+    max-width: 710px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 75px;
+}
+.container7 {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+}
+/*Image 5 - LC 500 */
+.image8 {   
+    max-width: 710px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 75px;
+}
+.container8 {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+}
+/*Image 5 - LC 500 */
+.image9 {   
+    max-width: 710px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 75px;
+}
+.container9 {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+}
+/*Image 5 - LC 500 */
+.image10 {   
+    max-width: 710px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 75px;
+}
+.container10 {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.list {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+    
+}
+.list button{
+    font-family: 'Montserrat', sans-serif;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    color: #228B22;
+    outline: none;
+    border: 3px solid #228B22;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-left: 110px;
+    transition: 0.5s;
+}
+.list button:hover{
+    background: #228B22;
+    color: #d9d9d9;
+    border: 3px solid #d9d9d9;
+}
+
+
+
+
+
+
+
 /*Error Page Gif*/
 .gif{
     border: 4px solid #228B22;
