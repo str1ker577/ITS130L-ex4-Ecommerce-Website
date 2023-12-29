@@ -33,6 +33,7 @@ header {
     justify-content:space-between;
     align-items: center;
     z-index: 99;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 5);
 }
 /*Footer Layout*/
 footer {
@@ -436,6 +437,7 @@ footer {
 /*Products Page*/
 /*Filter*/
 .wrapper-sort{
+    
     margin-top: -80px;
     margin-bottom: 20px;
     max-width: 100%;
@@ -451,6 +453,8 @@ footer {
 }
 /*Filter Options Dropdown*/
 .filter{
+    display: flex;
+    float: left;
     margin-top: 10px;
     margin-left: 50px;
     font-family: 'Montserrat', sans-serif;
@@ -460,7 +464,7 @@ footer {
     display: none;
     position: absolute;
     background-color: white;
-    border: 2px solid #228B22;
+    border: 3px solid #228B22;
     border-radius: 25px;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     transition: 0.5s;
@@ -501,7 +505,7 @@ footer {
     height: 50px;
     background: transparent;
     outline: none;
-    border: 2px solid #228B22;
+    border: 3px solid #228B22;
     border-radius: 50px;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     background-color: white;
@@ -514,7 +518,32 @@ footer {
 .sort button:hover{
     background: #d9d9d9;
 }
+/*Refresh button*/
+.Refresh button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    margin-left: 300px;
+    margin-bottom: -90px;
+    background: white;
+    color: #228B22;
+    outline: none;
+    border: 3px solid #228B22;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: 0.5s;
+    position: absolute;
+}
+.Refresh button:hover{
+    background: #d9d9d9;
+}
+.Refresh button i{
+    font-size: 25px;
+}
 /*Images*/
+/*Headings*/
 /*Image 5 - LC 500 */
 .image5 {   
     max-width: 710px;
@@ -800,6 +829,16 @@ ul {
 .Offerings {
     text-decoration: underline;
     font-style: italic;
+    width: 400px;
+    height: 55px;
+    margin-top: 2px;
+    margin-bottom: 25px;
+    vertical-align: middle;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid #228B22;
+    border: 3px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
 }
 
 /*Error Page Gif*/
@@ -811,7 +850,7 @@ ul {
 /*Testimonial Page*/
 /*Outer Capsule*/
 .Testimonials {
-    height: 1100px;
+    max-height: max-content;
     width: 95%;
     text-align: center;
     border: 4px solid #228B22;
@@ -861,6 +900,7 @@ ul {
 }
 /*Testimonial Paragraphs*/
 .review p{
+    max-width: fit-content;
     text-align: justify;
     margin-left: 60px;
     text-indent: 10px;
