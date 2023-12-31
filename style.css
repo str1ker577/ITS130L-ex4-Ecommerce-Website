@@ -228,6 +228,42 @@ footer {
 }
 
 /*Home Page Images*/
+/*Dealership*/
+.intro{
+    margin-top: -760px;
+    margin-bottom: 500px;
+    margin-left: 60px;
+    max-width: 910px;
+    max-height: 500px;
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    z-index: 2;
+}
+.intro h1{
+    font-size: 3em;
+    color: #228B22;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.intro p{
+    margin-top: 20px ;
+    margin-bottom: 200px;
+    margin-left: 20px;
+    width: 900px;
+    font-style: italic;
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: #228B22;
+    text-align: left;
+    text-indent: 0 !important;
+}
+.dealership img{
+    width: 100%;
+    border-bottom: 4px solid #228B22;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    z-index: 1;
+}
 .container1 {
     max-width: 1200px;
     display: flex;
@@ -269,7 +305,6 @@ footer {
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     backdrop-filter: blur(10px);
 }
-
 /*Image 3 - Acura NSX*/
 .image3 {   
     max-width: 710px;
@@ -310,10 +345,47 @@ footer {
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     backdrop-filter: blur(10px);
 }
+/*Google Maps Iframe*/
+.iframe {
+    margin: 50px;
+    width: 1000px;
+    height: 450px;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+}
+.iframe-heading{
+    margin-top: 100px;
+    border-bottom: 4px solid #228B22;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+}
 
 /*About us Page*/
 /*About Me Picture*/
+.About{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    background-image: url(Dealership2.png);
+    min-height: 100%;
+    background-size: cover;
+    background-position: fit; 
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 .profile { 
+    margin-left: 160px;
+    margin-bottom: 300px;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -323,12 +395,12 @@ footer {
     margin-left: 300px;
     border: 4px solid #228B22;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
-    backdrop-filter: blur(10px);
+    background-color: #d9d9d9;
     float: left;
-    margin-left: 560px;
 }
 /*About Me Box*/
 .wrapper-about {
+    margin-bottom: 300px;
     height: 400px;
     width: 600px;
     display: flex;
@@ -337,7 +409,8 @@ footer {
     border: 4px solid #228B22;
     border-radius: 50px;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
-    backdrop-filter: blur(10px);
+    background-color: #d9d9d9;
+    z-index: 2;
 }
 /*About Me Paragraph*/
 .wrapper-about p{
@@ -350,6 +423,7 @@ footer {
     align-items: center;
     text-align: justify;
     margin-left: 85px;
+    line-break: ;
 }
 /*About Me Paragraph Heading*/
 .wrapper-about h2{
@@ -360,27 +434,33 @@ footer {
     align-items: center;
     text-align: justify;
     margin-left: 210px;
+    z-index: 2;
 }
 /*About Us - Mission Boxes*/
 .goals{
-    height: 800px;
-    width: 1600px;
+    max-width: 100%;
+    height: 1000px;
+    display: flex;
     align-items: center;
     text-align: justify;
-    display: flex;
-    column-gap: 50px;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
     border: 4px solid #228B22;
     border-radius: 50px;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     background-image: url(cars/goals.webp);
     background-size: cover;
     background-position: fit; 
-    background-repeat: no-repeat; 
-    margin-left: 160px;
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+    margin-left: 40px;
+    margin-right: 40px;
 }
 /*About Us - Mission Box 1*/
 .box1 {
-    height: 400px;
+    height: 300px;
     width: 600px;
     display: flex;
     align-items: center;
@@ -389,14 +469,13 @@ footer {
     border-radius: 50px;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     backdrop-filter: blur(10px);
-    display: inline-block;
     margin-left: 120px;
     background-color:#d9d9d9;
 
 }
 /*About Us - Mission Box 2*/
 .box2 {
-    height: 400px;
+    height: 300px;
     width: 600px;
     display: flex;
     align-items: center;
@@ -405,8 +484,33 @@ footer {
     border-radius: 50px;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     backdrop-filter: blur(10px);
-    display: inline-block;
     margin-left: 100px;
+    background-color:#d9d9d9;
+}
+.box3 {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+    margin-left: 100px;
+    background-color:#d9d9d9;
+}
+.box4 {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    border: 4px solid #228B22;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+    backdrop-filter: blur(10px);
+    margin-right: 100px;
     background-color:#d9d9d9;
 }
 /*About Us - Mission Box 1 Paragraph*/
@@ -848,6 +952,27 @@ ul {
     border-radius: 50px;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
 }
+.go-back{
+    font-family: 'Montserrat', sans-serif;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    color: #228B22;
+    outline: none;
+    border: 3px solid #228B22;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-left: -10px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.go-back:hover{
+    background: #d9d9d9;
+    color: #228B22;
+    border: 3px solid #228B22;
+}
 /*Testimonial Page*/
 /*Outer Capsule*/
 .Testimonials {
@@ -951,7 +1076,7 @@ ul {
     margin: 0 30px;
     display: inline-flex;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 35%;
     transition: all 0.5s;
     box-shadow: -3px -3px 7px #228B22, 3px 3px 5px #228B22;
     backdrop-filter: blur(10px);
@@ -963,7 +1088,7 @@ ul {
     left: 0;
     bottom: 0;
     right: 0;
-    border-radius: 50%;
+    border-radius: 35%;
     background: #d9d9d9;
     box-shadow: inset 7px #228B22, 
                 inset 3px 5px #228B22;
