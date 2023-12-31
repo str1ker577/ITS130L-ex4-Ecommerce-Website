@@ -423,7 +423,6 @@ footer {
     align-items: center;
     text-align: justify;
     margin-left: 85px;
-    line-break: ;
 }
 /*About Me Paragraph Heading*/
 .wrapper-about h2{
@@ -439,7 +438,7 @@ footer {
 /*About Us - Mission Boxes*/
 .goals{
     max-width: 100%;
-    height: 1000px;
+    height: 800px;
     display: flex;
     align-items: center;
     text-align: justify;
@@ -457,6 +456,9 @@ footer {
     background-attachment: scroll; 
     margin-left: 40px;
     margin-right: 40px;
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: 300px 600px;
 }
 /*About Us - Mission Box 1*/
 .box1 {
@@ -469,7 +471,8 @@ footer {
     border-radius: 50px;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     backdrop-filter: blur(10px);
-    margin-left: 120px;
+    margin-left: 80px;
+    margin-top: 50px;
     background-color:#d9d9d9;
 
 }
@@ -484,9 +487,11 @@ footer {
     border-radius: 50px;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     backdrop-filter: blur(10px);
-    margin-left: 100px;
+    margin-left: 380px;
+    margin-top: 50px;
     background-color:#d9d9d9;
 }
+/*About Us - Mission Box 3*/
 .box3 {
     height: 300px;
     width: 600px;
@@ -497,9 +502,11 @@ footer {
     border-radius: 50px;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     backdrop-filter: blur(10px);
-    margin-left: 100px;
+    margin-left: 80px;
+    margin-bottom: 800px;
     background-color:#d9d9d9;
 }
+/*About Us - Mission Box 4*/
 .box4 {
     height: 300px;
     width: 600px;
@@ -510,7 +517,8 @@ footer {
     border-radius: 50px;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     backdrop-filter: blur(10px);
-    margin-right: 100px;
+    margin-left: 380px;
+    margin-bottom: 800px;
     background-color:#d9d9d9;
 }
 /*About Us - Mission Box 1 Paragraph*/
@@ -527,6 +535,30 @@ footer {
 }
 /*About Us - Mission Box 2 Paragraph*/
 .box2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: 900;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-left: 85px;
+}
+/*About Us - Mission Box 3 Paragraph*/
+.box3 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: 900;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-left: 85px;
+}
+/*About Us - Mission Box 4 Paragraph*/
+.box4 p{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
     font-weight: 900;
@@ -973,6 +1005,146 @@ ul {
     color: #228B22;
     border: 3px solid #228B22;
 }
+/*Gallery Page*/
+.Gallery-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Gallery-container{
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+.card{
+    width: 80px;
+    border-radius: .75rem;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border: 3px solid #228B22;
+    border-radius: 50px;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+}
+.card > .Gallery-row {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.card > .Gallery-row > .Gallery-icon{
+    background: #223;
+    color: white;
+    border: 3px solid #228B22;
+    border-radius: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.card > .Gallery-row > .description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 80px;
+    width: 520px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition-delay: .9s;
+    transition: all .9s ease;
+}
+.description h4{
+    text-transform: uppercase;
+    color: white;
+}
+
+input {
+    display: none;
+}
+input:checked + label{
+    width: 600px;
+}
+input:checked + label .description{
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+.card[for="c1"] {
+    background-image: url(Gallery/1.jpg);
+    background-size: cover;
+    background-position: fit; 
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+}
+.card[for="c2"] {
+    background-image: url(Gallery/2.jpg);
+    background-size: cover;
+    background-position: fit; 
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+}
+.card[for="c3"] {
+    background-image: url(Gallery/3.jpg);
+    background-size: cover;
+    background-position: fit; 
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+}
+.card[for="c4"] {
+    background-image: url(Gallery/4.jpg);
+    background-size: cover;
+    background-position: fit; 
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+}
+.card[for="c5"] {
+    background-image: url(Gallery/5.jpg);
+    background-size: cover;
+    background-position: fit; 
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+}
+.card[for="c6"] {
+    background-image: url(Gallery/6.jpg);
+    background-size: cover;
+    background-position: fit; 
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+}
+.card[for="c7"] {
+    background-image: url(Gallery/7.jpg);
+    background-size: cover;
+    background-position: fit; 
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+}
+.card[for="c8"] {
+    background-image: url(Gallery/8.webp);
+    background-size: cover;
+    background-position: fit; 
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+}
+.card[for="c9"] {
+    background-image: url(Gallery/9.webp);
+    background-size: cover;
+    background-position: fit; 
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+}
+
+
+
+
+
 /*Testimonial Page*/
 /*Outer Capsule*/
 .Testimonials {
