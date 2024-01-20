@@ -430,11 +430,9 @@ footer {
 }
 /*About Cards Paragraph*/
 .About-Card p{
-    padding: 30px 40px;
+    padding: 20px 100px;
     height: 500px;
-    width: 800px;
-    max-width: fit-content;
-    max-height:max ;
+    width: 100%;
     font-size: 1.5em;
     margin-bottom: 30px;
     line-height: 1.5;
