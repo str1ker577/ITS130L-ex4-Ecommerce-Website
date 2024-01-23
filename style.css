@@ -285,7 +285,7 @@ footer {
     margin-left: 60px;
     max-width: 910px;
     max-height: 500px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(100px);
     border-radius: 50px;
     z-index: 2;
 }
@@ -313,6 +313,7 @@ footer {
     border-bottom: 4px solid #228B22;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
     z-index: 1;
+    opacity: 0.9;
 }
 .container1 {
     max-width: 1200px;
